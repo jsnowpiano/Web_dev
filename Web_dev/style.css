@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(17, 169, 219);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(5, 29, 64);
+    color: #ffffff;
+    height: 150px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+ ;
+}
+.header_div {
+
+    border: #ffffff;
+    height: 150px;
+  
+}
+.logo {
+    size: 50px;
+    align-self: center;
+}
+
+.title {
+    margin-top: 500px;
+}
+nav a {
+    color:black;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+nav {
+    background-color: #ffffff;
+    height: 30px;
+    text-align: center;
+}
+main {
+    background-image: url('Assets/cloudback.jpg');
+    height: 2900px;
+    display: grid;
+    grid-template-columns: 60px 500px 60px 500px;
+    grid-template-rows: 50px 500px 50px 500px;
+}
+.box1 {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: grid;
+    grid-template: 50px 50px 50px 50px;
+}
+.box2 {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+}
+.heading {
+    font-family: sans-serif;
+    padding-left: 50px;
+}
+p {
+    font-size: small;
+}
